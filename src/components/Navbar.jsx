@@ -69,6 +69,12 @@ const Navbar = () => {
             >
               Contact
             </NavLink>
+            <NavLink
+              to="/book"
+              className={({ isActive }) => (isActive ? "bg-amber-200" : "")}
+            >
+              Book
+            </NavLink>
           </ul>
         </div>
         <div className="navbar-end">
